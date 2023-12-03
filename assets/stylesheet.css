@@ -9,3 +9,13 @@
     --cor-fonte-fundo-escuro: #F3F3F3;
     --cor-fonte-fundo-claro: #000000;
 }
+
+.fonte-titulos{
+    font-family: var(--fonte-titulos);
+    font-weight: 900;
+    line-height: 100%;
+}
+.fonte-conteudos{
+    font-family: var(--fonte-conteudos);
+    line-height: 100%;
+}
