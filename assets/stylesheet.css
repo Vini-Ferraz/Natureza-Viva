@@ -1,1 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Quicksand&display=swap');
+
+:root{
+    --fonte-titulos: 'Lato', sans-serif;
+    --fonte-conteudos: 'Quicksand', sans-serif;
+    --cor-fundo-principal: #D1FAFF;
+    --cor-fundo-secundaria: #134611;
+    --cor-elementos-destaque: #F9A620;
+    --cor-fonte-fundo-escuro: #F3F3F3;
+    --cor-fonte-fundo-claro: #000000;
+}
