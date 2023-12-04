@@ -7,7 +7,7 @@
     --cor-fundo-secundaria: #134611;
     --cor-elementos-destaque: #F9A620;
     --cor-fonte-fundo-escuro: #F3F3F3;
-    --cor-fonte-fundo-claro: #000000;
+    --cor-fonte-fundo-claro: #1a1a1a;
 }
 
 .fonte-titulos{
@@ -18,4 +18,13 @@
 .fonte-conteudos{
     font-family: var(--fonte-conteudos);
     line-height: 100%;
+}
+.fundo-verde{
+    background-color: var(--cor-fundo-secundaria);
+}
+.fonte-cor-fundo-claro{
+    color: var(--cor-fonte-fundo-claro);
+}
+.fonte-cor-fundo-escuro{
+    color: var(--cor-fonte-fundo-escuro);
 }
