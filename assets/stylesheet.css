@@ -28,8 +28,12 @@
 .fonte-cor-fundo-escuro{
     color: var(--cor-fonte-fundo-escuro);
 }
+
 .logo{
     border-radius: 50%;
     width: 60px;
     height: 60px;
+}
+.underline-destaque{
+    text-decoration: underline 3px solid var(--cor-elementos-destaque);
 }
