@@ -22,9 +22,24 @@
     font-weight: 900;
     line-height: 100%;
 }
+.fonte-titulos-tamanho-01{
+    font-size: var(--fonte-titulo-tamanho-telas-g-m-01);
+}
+.fonte-titulos-tamanho-02{
+    font-size: var(--fonte-titulo-tamanho-telas-g-m-02);
+}
+.fonte-titulos-tamanho-03{
+    font-size: var(--fonte-titulo-tamanho-03);
+}
 .fonte-conteudos{
     font-family: var(--fonte-conteudos);
     line-height: 100%;
+}
+.fonte-conteudos-tamanho-01{
+    font-size: var(--fonte-conteudo-01);
+}
+.fonte-conteudos-tamanho-02{
+    font-size: var(--fonte-conteudo-02);
 }
 .fundo-verde{
     background-color: var(--cor-fundo-secundaria);
@@ -43,4 +58,13 @@
 }
 .underline-destaque{
     text-decoration: underline 3px solid var(--cor-elementos-destaque);
+}
+
+@media (max-width: 500px) {
+    .fonte-titulos-tamanho-01{
+        font-size: var(--fonte-titulo-tamanho-telas-p-01);
+    }
+    .fonte-titulos-tamanho-02{
+        font-size: var(--fonte-titulo-tamanho-telas-p-02);
+    }
 }
