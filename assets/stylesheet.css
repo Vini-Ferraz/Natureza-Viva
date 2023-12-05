@@ -17,6 +17,22 @@
     --cor-fonte-fundo-claro: #1a1a1a;
 }
 
+body{
+    background-color: var(--cor-fundo-principal);
+}
+
+ul{
+    list-style: none;
+}
+#check-list > li::before{
+    content: '';
+    background-image: url('../assets/check-circle-fill.svg');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
 .fonte-titulos{
     font-family: var(--fonte-titulos);
     font-weight: 900;
@@ -58,6 +74,14 @@
 }
 .underline-destaque{
     text-decoration: underline 3px solid var(--cor-elementos-destaque);
+}
+
+.botoes-estilo{
+    background-color: var(--cor-elementos-destaque);
+    border: none;
+    border-radius: 20px;
+    width: 20%;
+    height: 8vh;
 }
 
 @media (max-width: 500px) {
