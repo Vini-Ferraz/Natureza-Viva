@@ -3,6 +3,13 @@
 :root{
     --fonte-titulos: 'Lato', sans-serif;
     --fonte-conteudos: 'Quicksand', sans-serif;
+    --fonte-titulo-tamanho-telas-g-m-01: 60px;
+    --fonte-titulo-tamanho-telas-g-m-02: 40px;
+    --fonte-titulo-tamanho-03: 30px;
+    --fonte-titulo-tamanho-telas-p-01: 45px;
+    --fonte-titulo-tamanho-telas-p-02: 35px;
+    --fonte-conteudo-01: 20px;
+    --fonte-conteudo-02: 25px;
     --cor-fundo-principal: #D1FAFF;
     --cor-fundo-secundaria: #134611;
     --cor-elementos-destaque: #F9A620;
