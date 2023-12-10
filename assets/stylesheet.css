@@ -72,8 +72,12 @@ ul{
     width: 60px;
     height: 60px;
 }
-.underline-destaque{
+.underline-destaque, .itens-menu:hover{
     text-decoration: underline 3px solid var(--cor-elementos-destaque);
+    transition: 200ms ease-in;
+}
+.itens-menu:hover{
+    color: var(--cor-fonte-fundo-escuro);
 }
 
 .botoes-estilo{
@@ -82,6 +86,9 @@ ul{
     border-radius: 20px;
     width: 20%;
     height: 8vh;
+}
+#btn-telas-pequenas{
+    border: none;
 }
 
 @media (max-width: 500px) {
