@@ -103,6 +103,9 @@ ul{
 #hero-row{
     margin-top: 10vw;
 }
+#hero-row-caixa-texto{
+    width: 75%;
+}
 
 @media (max-width: 500px) {
     .fonte-titulos-tamanho-01{
@@ -114,5 +117,8 @@ ul{
 
     #hero-row{
         margin-top: 30vw;
+    }
+    #hero-row-caixa-texto{
+        width: 100%;
     }
 }
