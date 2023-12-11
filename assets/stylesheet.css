@@ -12,6 +12,7 @@
     --fonte-conteudo-02: 25px;
     --cor-fundo-principal: #D1FAFF;
     --cor-fundo-secundaria: #134611;
+    --cor-fundo-secundaria-menu: hsla(118, 61%, 17%, 0.87);
     --cor-elementos-destaque: #F9A620;
     --cor-fonte-fundo-escuro: #F3F3F3;
     --cor-fonte-fundo-claro: #1a1a1a;
@@ -60,6 +61,10 @@ ul{
 .fundo-verde{
     background-color: var(--cor-fundo-secundaria);
 }
+.fundo-verde-menu{
+    background-color: var(--cor-fundo-secundaria-menu);
+    backdrop-filter: blur(5px);
+}
 .fonte-cor-fundo-claro{
     color: var(--cor-fonte-fundo-claro);
 }
@@ -79,6 +84,10 @@ ul{
 .itens-menu:hover{
     color: var(--cor-fonte-fundo-escuro);
 }
+.itens-menu:active,
+.itens-menu:focus{
+    color: var(--cor-elementos-destaque);
+}
 
 .botoes-estilo{
     background-color: var(--cor-elementos-destaque);
@@ -91,11 +100,19 @@ ul{
     border: none;
 }
 
+#hero-row{
+    margin-top: 10vw;
+}
+
 @media (max-width: 500px) {
     .fonte-titulos-tamanho-01{
         font-size: var(--fonte-titulo-tamanho-telas-p-01);
     }
     .fonte-titulos-tamanho-02{
         font-size: var(--fonte-titulo-tamanho-telas-p-02);
+    }
+
+    #hero-row{
+        margin-top: 30vw;
     }
 }
