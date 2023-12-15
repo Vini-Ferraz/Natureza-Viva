@@ -27,7 +27,7 @@ ul{
 }
 #check-list > li::before{
     content: '';
-    background-image: url('../assets/check-circle-fill.svg');
+    background-image: url('../media/check-circle-fill.svg');
     background-size: contain;
     background-repeat: no-repeat;
     width: 35px;
@@ -132,6 +132,9 @@ ul{
 #seção-beneficios{
     gap: 5%;
 }
+.texto-largura{
+    width: 55vw;
+}
 
 @media (max-width: 1024px) {
     #check-list > li::before{
@@ -147,15 +150,43 @@ ul{
     #hero-row{
         margin-top: 20vw;
     }
-    .caixa-flex-dois-itens{
+    .caixa-flex-wrap{
         flex-wrap: wrap;
     }
     .img-metade-tela-seção{
         width: 100%;
     }
+    .botoes-estilo{
+        width: 35vw;
+    }
+    #check-list > li::before{
+        padding-right: 7vw;
+    }
+    .img-galeria, .container-serviços{
+        width: 100%;
+    }
+    .container-serviços{
+        width: 75vw;
+        text-align: center;
+    }
+    #contato-seção{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .texto-largura{
+        width: 90vw;
+    }
+    #seção-beneficios{
+        width: 90vw;
+    }
+    #img-selfie{
+        width: 30vw;
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
     .fonte-titulos-tamanho-01{
         font-size: var(--fonte-titulo-tamanho-telas-p-01);
     }
@@ -168,5 +199,11 @@ ul{
     }
     #hero-row-caixa-texto{
         width: 100%;
+    }
+    #check-list > li::before{
+        padding-right: 15vw;
+    }
+    .botoes-estilo{
+        width: 45vw;
     }
 }
