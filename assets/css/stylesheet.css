@@ -1,5 +1,6 @@
+/* Importação de fontes do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Quicksand&display=swap');
-
+/* Definição de variáveis globais */
 :root{
     --fonte-titulos: 'Lato', sans-serif;
     --fonte-conteudos: 'Quicksand', sans-serif;
@@ -17,25 +18,11 @@
     --cor-fonte-fundo-escuro: #F3F3F3;
     --cor-fonte-fundo-claro: #1a1a1a;
 }
-
+/* Estilo do corpo da página */
 body{
     background-color: var(--cor-fundo-principal);
 }
-
-ul{
-    list-style: none;
-}
-#check-list > li::before{
-    content: '';
-    background-image: url('../media/check-circle-fill.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 35px;
-    height: 30px;
-    display: inline;
-    padding-right: 3vw;
-}
-
+/* Estilos para fontes */
 .fonte-titulos{
     font-family: var(--fonte-titulos);
     font-weight: 900;
@@ -61,6 +48,7 @@ ul{
     font-size: var(--fonte-conteudo-02);
     line-height: 125%;
 }
+/* Estilo para cores */
 .fundo-verde{
     background-color: var(--cor-fundo-secundaria);
 }
@@ -74,12 +62,6 @@ ul{
 .fonte-cor-fundo-escuro{
     color: var(--cor-fonte-fundo-escuro);
 }
-
-.logo{
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-}
 .underline-destaque, .itens-menu:hover{
     text-decoration: underline 3px solid var(--cor-elementos-destaque);
     transition: 200ms ease-in;
@@ -91,22 +73,12 @@ ul{
 .itens-menu:focus{
     color: var(--cor-elementos-destaque);
 }
-
-.botoes-estilo{
-    background-color: var(--cor-elementos-destaque);
-    border: none;
-    border-radius: 20px;
-    width: 15vw;
-    height: 8vh;
+/* Estilos para tamanhos */
+.logo{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
-.botoes-estilo:hover{
-    transform: scale(1.05);
-    transition: 200ms ease-in;
-}
-#btn-telas-pequenas{
-    border: none;
-}
-
 #hero-row{
     margin-top: 10vw;
 }
@@ -119,7 +91,6 @@ ul{
 #caixa-texto-seção-retiros {
     margin-left: 3vw;
 }
-
 .img-metade-tela-seção{
     width: 40.5vw;
 }
@@ -135,7 +106,35 @@ ul{
 .texto-largura{
     width: 55vw;
 }
-
+/* Estilos para situações mais específicas */
+.botoes-estilo{
+    background-color: var(--cor-elementos-destaque);
+    border: none;
+    border-radius: 20px;
+    width: 15vw;
+    height: 8vh;
+}
+.botoes-estilo:hover{
+    transform: scale(1.05);
+    transition: 200ms ease-in;
+}
+#btn-telas-pequenas{
+    border: none;
+}
+ul{
+    list-style: none;
+}
+#check-list > li::before{
+    content: '';
+    background-image: url('../media/check-circle-fill.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 30px;
+    display: inline;
+    padding-right: 3vw;
+}
+/* Media query para desktops e notebooks menores*/
 @media (max-width: 1024px) {
     #check-list > li::before{
         padding-right: 5vw;
@@ -145,13 +144,10 @@ ul{
     }
     
 }
-
+/* Media query para tablets */
 @media (max-width: 786px){
     #hero-row{
         margin-top: 20vw;
-    }
-    .caixa-flex-wrap{
-        flex-wrap: wrap;
     }
     .img-metade-tela-seção{
         width: 100%;
@@ -169,12 +165,6 @@ ul{
         width: 75vw;
         text-align: center;
     }
-    #contato-seção{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
     .texto-largura{
         width: 90vw;
     }
@@ -184,8 +174,18 @@ ul{
     #img-selfie{
         width: 30vw;
     }
-}
 
+    #contato-seção{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .caixa-flex-wrap{
+        flex-wrap: wrap;
+    }
+}
+/* Media query para celulares */
 @media (max-width: 425px) {
     .fonte-titulos-tamanho-01{
         font-size: var(--fonte-titulo-tamanho-telas-p-01);
