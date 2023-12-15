@@ -133,6 +133,28 @@ ul{
     gap: 5%;
 }
 
+@media (max-width: 1024px) {
+    #check-list > li::before{
+        padding-right: 5vw;
+    }
+    .botoes-estilo{
+        width: 22vw;
+    }
+    
+}
+
+@media (max-width: 786px){
+    #hero-row{
+        margin-top: 20vw;
+    }
+    .caixa-flex-dois-itens{
+        flex-wrap: wrap;
+    }
+    .img-metade-tela-seção{
+        width: 100%;
+    }
+}
+
 @media (max-width: 500px) {
     .fonte-titulos-tamanho-01{
         font-size: var(--fonte-titulo-tamanho-telas-p-01);
