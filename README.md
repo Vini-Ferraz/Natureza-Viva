@@ -1,6 +1,6 @@
 # Natureza Viva - Turismo Ecológico
 
-Bem-vindo ao projeto Natureza Viva, um site institucional one page desenvolvido com HTML, CSS e Bootstrap. Este projeto apresenta uma empresa fictícia de turismo ecológico, oferecendo experiências inesquecíveis em São Sebastião. A seguir, você encontrará informações sobre o projeto e como utilizá-lo.
+Bem-vindo ao projeto Natureza Viva, um site institucional one page desenvolvido com HTML, CSS e Bootstrap. Este projeto apresenta uma empresa fictícia de turismo ecológico, oferecendo experiências inesquecíveis em São Sebastião. A seguir, você encontrará informações sobre o projeto.
 
 ## Tecnologias Utilizadas
 
