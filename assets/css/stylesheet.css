@@ -15,6 +15,7 @@
   --cor-fundo-secundaria: #306135;
   --cor-fundo-secundaria-menu: #306135e3;
   --cor-elementos-destaque: #f9a620;
+  --cor-elemntos-destaque-active: #cc8615;
   --cor-fonte-fundo-escuro: #f3f3f3;
   --cor-fonte-fundo-claro: #1a1a1a;
 }
@@ -117,8 +118,11 @@ body {
   height: 8vh;
 }
 .botoes-estilo:hover {
-  transform: scale(1.05);
-  transition: 200ms ease-in;
+  transform: scale(1.02);
+  transition: 100ms ease-in;
+}
+.botoes-estilo:active {
+  background-color: var(--cor-elemntos-destaque-active);
 }
 #btn-telas-pequenas {
   border: none;
