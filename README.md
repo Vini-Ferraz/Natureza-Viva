@@ -18,4 +18,4 @@ Bem-vindo ao projeto Natureza Viva, um site institucional one page desenvolvido 
 ---
 
 **Natureza Viva - Ecoturismo Sustentável**  
-© 2023 Natureza Viva. Todos os direitos reservados.
+© 2023 Natureza Viva
