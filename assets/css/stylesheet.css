@@ -212,3 +212,9 @@ ul {
     width: 45vw;
   }
 }
+
+@media (max-width: 320px) {
+  .botoes-estilo {
+    width: 50vw;
+  }
+}
